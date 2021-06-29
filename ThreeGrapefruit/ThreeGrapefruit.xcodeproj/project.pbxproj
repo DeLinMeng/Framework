@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BBBB0402472D9E800AB638B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB03F2472D9E800AB638B /* AppDelegate.swift */; };
+		7BBBB0422472D9E800AB638B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0412472D9E800AB638B /* SceneDelegate.swift */; };
+		7BBBB0442472D9E800AB638B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0432472D9E800AB638B /* ViewController.swift */; };
+		7BBBB0472472D9E800AB638B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB0452472D9E800AB638B /* Main.storyboard */; };
+		7BBBB0492472D9EA00AB638B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB0482472D9EA00AB638B /* Assets.xcassets */; };
+		7BBBB04C2472D9EA00AB638B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB04A2472D9EA00AB638B /* LaunchScreen.storyboard */; };
+		7BBBB0572472D9EA00AB638B /* ThreeGrapefruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0562472D9EA00AB638B /* ThreeGrapefruitTests.swift */; };
+		7BBBB0622472D9EA00AB638B /* ThreeGrapefruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0612472D9EA00AB638B /* ThreeGrapefruitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BBBB0532472D9EA00AB638B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBBB0342472D9E800AB638B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBBB03B2472D9E800AB638B;
+			remoteInfo = ThreeGrapefruit;
+		};
+		7BBBB05E2472D9EA00AB638B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BBBB0342472D9E800AB638B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BBBB03B2472D9E800AB638B;
+			remoteInfo = ThreeGrapefruit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BBBB03C2472D9E800AB638B /* ThreeGrapefruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeGrapefruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBBB03F2472D9E800AB638B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BBBB0412472D9E800AB638B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BBBB0432472D9E800AB638B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BBBB0462472D9E800AB638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BBBB0482472D9EA00AB638B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BBBB04B2472D9EA00AB638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BBBB04D2472D9EA00AB638B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBBB0522472D9EA00AB638B /* ThreeGrapefruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeGrapefruitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBBB0562472D9EA00AB638B /* ThreeGrapefruitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeGrapefruitTests.swift; sourceTree = "<group>"; };
+		7BBBB0582472D9EA00AB638B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBBB05D2472D9EA00AB638B /* ThreeGrapefruitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeGrapefruitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBBB0612472D9EA00AB638B /* ThreeGrapefruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeGrapefruitUITests.swift; sourceTree = "<group>"; };
+		7BBBB0632472D9EA00AB638B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BBBB0392472D9E800AB638B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB04F2472D9EA00AB638B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB05A2472D9EA00AB638B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BBBB0332472D9E800AB638B = {
+			isa = PBXGroup;
+			children = (
+				7BBBB03E2472D9E800AB638B /* ThreeGrapefruit */,
+				7BBBB0552472D9EA00AB638B /* ThreeGrapefruitTests */,
+				7BBBB0602472D9EA00AB638B /* ThreeGrapefruitUITests */,
+				7BBBB03D2472D9E800AB638B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BBBB03D2472D9E800AB638B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBBB03C2472D9E800AB638B /* ThreeGrapefruit.app */,
+				7BBBB0522472D9EA00AB638B /* ThreeGrapefruitTests.xctest */,
+				7BBBB05D2472D9EA00AB638B /* ThreeGrapefruitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BBBB03E2472D9E800AB638B /* ThreeGrapefruit */ = {
+			isa = PBXGroup;
+			children = (
+				7BBBB03F2472D9E800AB638B /* AppDelegate.swift */,
+				7BBBB0412472D9E800AB638B /* SceneDelegate.swift */,
+				7BBBB0432472D9E800AB638B /* ViewController.swift */,
+				7BBBB0452472D9E800AB638B /* Main.storyboard */,
+				7BBBB0482472D9EA00AB638B /* Assets.xcassets */,
+				7BBBB04A2472D9EA00AB638B /* LaunchScreen.storyboard */,
+				7BBBB04D2472D9EA00AB638B /* Info.plist */,
+			);
+			path = ThreeGrapefruit;
+			sourceTree = "<group>";
+		};
+		7BBBB0552472D9EA00AB638B /* ThreeGrapefruitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBBB0562472D9EA00AB638B /* ThreeGrapefruitTests.swift */,
+				7BBBB0582472D9EA00AB638B /* Info.plist */,
+			);
+			path = ThreeGrapefruitTests;
+			sourceTree = "<group>";
+		};
+		7BBBB0602472D9EA00AB638B /* ThreeGrapefruitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BBBB0612472D9EA00AB638B /* ThreeGrapefruitUITests.swift */,
+				7BBBB0632472D9EA00AB638B /* Info.plist */,
+			);
+			path = ThreeGrapefruitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BBBB03B2472D9E800AB638B /* ThreeGrapefruit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBBB0662472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruit" */;
+			buildPhases = (
+				7BBBB0382472D9E800AB638B /* Sources */,
+				7BBBB0392472D9E800AB638B /* Frameworks */,
+				7BBBB03A2472D9E800AB638B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeGrapefruit;
+			productName = ThreeGrapefruit;
+			productReference = 7BBBB03C2472D9E800AB638B /* ThreeGrapefruit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BBBB0512472D9EA00AB638B /* ThreeGrapefruitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBBB0692472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruitTests" */;
+			buildPhases = (
+				7BBBB04E2472D9EA00AB638B /* Sources */,
+				7BBBB04F2472D9EA00AB638B /* Frameworks */,
+				7BBBB0502472D9EA00AB638B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBBB0542472D9EA00AB638B /* PBXTargetDependency */,
+			);
+			name = ThreeGrapefruitTests;
+			productName = ThreeGrapefruitTests;
+			productReference = 7BBBB0522472D9EA00AB638B /* ThreeGrapefruitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BBBB05C2472D9EA00AB638B /* ThreeGrapefruitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBBB06C2472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruitUITests" */;
+			buildPhases = (
+				7BBBB0592472D9EA00AB638B /* Sources */,
+				7BBBB05A2472D9EA00AB638B /* Frameworks */,
+				7BBBB05B2472D9EA00AB638B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BBBB05F2472D9EA00AB638B /* PBXTargetDependency */,
+			);
+			name = ThreeGrapefruitUITests;
+			productName = ThreeGrapefruitUITests;
+			productReference = 7BBBB05D2472D9EA00AB638B /* ThreeGrapefruitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BBBB0342472D9E800AB638B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "孟德林";
+				TargetAttributes = {
+					7BBBB03B2472D9E800AB638B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7BBBB0512472D9EA00AB638B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7BBBB03B2472D9E800AB638B;
+					};
+					7BBBB05C2472D9EA00AB638B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7BBBB03B2472D9E800AB638B;
+					};
+				};
+			};
+			buildConfigurationList = 7BBBB0372472D9E800AB638B /* Build configuration list for PBXProject "ThreeGrapefruit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BBBB0332472D9E800AB638B;
+			productRefGroup = 7BBBB03D2472D9E800AB638B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BBBB03B2472D9E800AB638B /* ThreeGrapefruit */,
+				7BBBB0512472D9EA00AB638B /* ThreeGrapefruitTests */,
+				7BBBB05C2472D9EA00AB638B /* ThreeGrapefruitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BBBB03A2472D9E800AB638B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBBB04C2472D9EA00AB638B /* LaunchScreen.storyboard in Resources */,
+				7BBBB0492472D9EA00AB638B /* Assets.xcassets in Resources */,
+				7BBBB0472472D9E800AB638B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB0502472D9EA00AB638B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB05B2472D9EA00AB638B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BBBB0382472D9E800AB638B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBBB0442472D9E800AB638B /* ViewController.swift in Sources */,
+				7BBBB0402472D9E800AB638B /* AppDelegate.swift in Sources */,
+				7BBBB0422472D9E800AB638B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB04E2472D9EA00AB638B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBBB0572472D9EA00AB638B /* ThreeGrapefruitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBB0592472D9EA00AB638B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBBB0622472D9EA00AB638B /* ThreeGrapefruitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BBBB0542472D9EA00AB638B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBBB03B2472D9E800AB638B /* ThreeGrapefruit */;
+			targetProxy = 7BBBB0532472D9EA00AB638B /* PBXContainerItemProxy */;
+		};
+		7BBBB05F2472D9EA00AB638B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BBBB03B2472D9E800AB638B /* ThreeGrapefruit */;
+			targetProxy = 7BBBB05E2472D9EA00AB638B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BBBB0452472D9E800AB638B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBBB0462472D9E800AB638B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BBBB04A2472D9EA00AB638B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BBBB04B2472D9EA00AB638B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BBBB0642472D9EA00AB638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BBBB0652472D9EA00AB638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BBBB0672472D9EA00AB638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BBBB0682472D9EA00AB638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BBBB06A2472D9EA00AB638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeGrapefruit.app/ThreeGrapefruit";
+			};
+			name = Debug;
+		};
+		7BBBB06B2472D9EA00AB638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeGrapefruit.app/ThreeGrapefruit";
+			};
+			name = Release;
+		};
+		7BBBB06D2472D9EA00AB638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeGrapefruit;
+			};
+			name = Debug;
+		};
+		7BBBB06E2472D9EA00AB638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5N2E7RPFN;
+				INFOPLIST_FILE = ThreeGrapefruitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deliin.meng.ThreeGrapefruitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeGrapefruit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BBBB0372472D9E800AB638B /* Build configuration list for PBXProject "ThreeGrapefruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBBB0642472D9EA00AB638B /* Debug */,
+				7BBBB0652472D9EA00AB638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBBB0662472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBBB0672472D9EA00AB638B /* Debug */,
+				7BBBB0682472D9EA00AB638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBBB0692472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBBB06A2472D9EA00AB638B /* Debug */,
+				7BBBB06B2472D9EA00AB638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBBB06C2472D9EA00AB638B /* Build configuration list for PBXNativeTarget "ThreeGrapefruitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBBB06D2472D9EA00AB638B /* Debug */,
+				7BBBB06E2472D9EA00AB638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BBBB0342472D9E800AB638B /* Project object */;
+}
