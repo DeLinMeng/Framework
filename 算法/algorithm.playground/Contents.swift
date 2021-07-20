@@ -20,19 +20,28 @@ class MyViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
+        
+        
         print(getTrips(n: 100))
+        
+        
     }
     
     func getTrips(n:Int) -> Int{
         if n <= 2 { return n }
         var dp = [Int](repeating: 0, count: n + 1);
-        dp[1] = 0
-        dp[2] = 1
+        dp[0] = 0
+        dp[1] = 1
         for index in 2...n {
             dp[index] = dp[index - 1] + dp[index - 2]
         }
         return dp[n];
     }
+    
+    
+    
+    
+    
     
 }
 // Present the view controller in the Live View window
